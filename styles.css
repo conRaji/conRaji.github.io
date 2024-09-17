@@ -1,0 +1,17 @@
+span.underline{
+    text-decoration: underline;
+}
+
+span.orangeBG{
+    background: orange;
+}
+
+span.redText{
+    color:red;
+    font-weight: bold;
+
+}
+
+div.container{
+    width: 400px;
+}
