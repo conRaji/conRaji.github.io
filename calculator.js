@@ -7,19 +7,17 @@ document.write("<tr style='background-color: orange; color: white;'><th>x</th><t
 while (true) {
     // Get user input
     let x = prompt("Enter the first number:");
-    if (x === null) break; // Exit if "Cancel" is clicked
+    if (x === null) break; 
     let y = prompt("Enter the second number:");
-    if (y === null) break; // Exit if "Cancel" is clicked
+    if (y === null) break; 
     let operator = prompt("Enter an operator (+, -, *, /, %):");
-    if (operator === null) break; // Exit if "Cancel" is clicked
+    if (operator === null) break; 
 
-    // Convert input to numbers
     x = parseFloat(x);
     y = parseFloat(y);
 
     let result;
 
-    // Check if inputs are valid numbers
     if (isNaN(x) || isNaN(y)) {
         result = "wrong input number";
     } else {
